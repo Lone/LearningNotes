@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182D03C21A5FB28600423A1E /* PurpleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182D03C11A5FB28600423A1E /* PurpleView.xib */; };
 		187764B71A5039A60042DA62 /* YellowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187764B61A5039A60042DA62 /* YellowView.xib */; };
 		187764BA1A5039C60042DA62 /* YellowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187764B91A5039C60042DA62 /* YellowView.m */; };
 		187764C21A5046B80042DA62 /* BlackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187764C01A5046B80042DA62 /* BlackViewController.m */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		182D03C11A5FB28600423A1E /* PurpleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurpleView.xib; sourceTree = "<group>"; };
 		187764B61A5039A60042DA62 /* YellowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YellowView.xib; sourceTree = "<group>"; };
 		187764B81A5039C60042DA62 /* YellowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowView.h; sourceTree = "<group>"; };
 		187764B91A5039C60042DA62 /* YellowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowView.m; sourceTree = "<group>"; };
@@ -87,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		182D03C01A5FB25E00423A1E /* PurpleView */ = {
+			isa = PBXGroup;
+			children = (
+				182D03C11A5FB28600423A1E /* PurpleView.xib */,
+			);
+			name = PurpleView;
+			sourceTree = "<group>";
+		};
 		187764B01A50388B0042DA62 /* YellowView */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +164,7 @@
 				187764B01A50388B0042DA62 /* YellowView */,
 				187764BC1A50464D0042DA62 /* BlackView */,
 				187764C71A5055FC0042DA62 /* GrayView */,
+				182D03C01A5FB25E00423A1E /* PurpleView */,
 				18D315201A4C0AFC00CB128D /* AppDelegate.h */,
 				18D315211A4C0AFC00CB128D /* AppDelegate.m */,
 				187764D11A50E6F50042DA62 /* MainViewController.h */,
@@ -296,6 +307,7 @@
 				18D315281A4C0AFC00CB128D /* Main.storyboard in Resources */,
 				187764CF1A50563F0042DA62 /* GrayViewController.xib in Resources */,
 				18D3152D1A4C0AFC00CB128D /* LaunchScreen.xib in Resources */,
+				182D03C21A5FB28600423A1E /* PurpleView.xib in Resources */,
 				18D3152A1A4C0AFC00CB128D /* Images.xcassets in Resources */,
 				187764B71A5039A60042DA62 /* YellowView.xib in Resources */,
 				18D315481A4C111E00CB128D /* GreenView.xib in Resources */,

@@ -22,7 +22,7 @@
             <connections>
                 <outlet property="titleLabel" destination="yDe-Ah-DAP" id="uFG-th-7BB"/>
             </connections>
-            <point key="canvasLocation" x="279" y="178"/>
+            <point key="canvasLocation" x="244" y="46"/>
         </view>
     </objects>
 </document>

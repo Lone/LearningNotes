@@ -57,6 +57,9 @@
     
     /* 6. 通过UIViewController+NIB加载xib文件中的View Controller类和其视图 */
     [self loadGrayViewFromXIB];
+    
+    /* 7. PurpleView.xib文件中有多个视图控件，将其全部log出来以查看xib中的视图结构 */
+    [self logViewsFromXIB];
 }
 
 - (void)loadBlueViewFromXIB {
@@ -136,6 +139,16 @@
     rect.origin.y = blackView.frame.origin.y + 80.0f;
     grayView.frame = rect;
     [self.view addSubview:grayView];
+}
+
+- (void)logViewsFromXIB {
+    NSLog(@"%s begin", __func__);
+    NSArray *views = [[NSBundle mainBundle] loadNibNamed:@"PurpleView" owner:nil options:nil];
+    for (int i = 0; i < views.count; i++) {
+        id obj = views[i];
+        NSLog(@"%d : %@", i, [obj class]);
+    }
+    NSLog(@"%s end", __func__);
 }
 
 - (void)didReceiveMemoryWarning {

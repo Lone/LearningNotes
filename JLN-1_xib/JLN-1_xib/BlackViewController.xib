@@ -22,7 +22,7 @@
                 </label>
             </subviews>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="359" y="304"/>
+            <point key="canvasLocation" x="327" y="-130"/>
         </view>
     </objects>
 </document>
